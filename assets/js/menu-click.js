@@ -16,8 +16,13 @@ mobileMenu.onclick = function() {
 var menuItems = document.querySelectorAll('#navigation li a[href*="#"]');
 for (var i = 0; i < menuItems.length; i++) {
     var menuItem = menuItems[i];
-    
-    menuItem.onclick = function() {
-        header.style = null;
+        
+    menuItem.onclick = function(event) {
+        var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+        if (!isParentMenu) {
+            header.style = null;
+        } else {
+            event.preventDefault();
+        }          
     }
 }

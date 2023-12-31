@@ -3,20 +3,132 @@
 
 }
 
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+
+    #content .place-buy-btn {
+        padding: 15px 16px;
+    }
+
+    .contact-infor {
+        line-height: 2;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-form .form-submit-btn {
+        padding: 16px;
+    }
+   
+}
+
 /* Tablet */
 @media (max-width: 1023px) and (min-width:740px) {
 
+    .contact-infor {
+        width: 40%;
+    }
+    
+    .contact-form {
+        width: 60%;
+    }
+    
+    #navigation .subnav a {
+        padding: 5px 41px;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright {
+        font-size: 22px;
+        padding: 12px 0;
+        display: inline-block;
+    }
 }
 
 /* Mobile */
 @media (max-width: 739px) {
-    #navigation > li {
-        display: block;
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    #header {
+        overflow: hidden;
     }
 
     #header .search-button {
         display: none;
     }
 
-    
+    #header .mobile-menu-button {
+        display: block;
+    }
+
+    #navigation {
+        display: block;
+    }
+
+    #navigation li a {
+        padding: 1px 24px;
+    }
+
+    #navigation .subnav {
+        position: initial;
+        background-color: #333333;
+        color: #ffffff;
+        /* margin-left: 16px;
+        margin-right: 16px; */
+    }
+
+    #navigation .subnav a {
+        padding: 5px 41px;
+    }
+
+    #navigation > li {
+        display: block;
+    }
+
+    #navigation > li:first-child {
+        display: inline-block;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    #footer .socials-list {
+        font-size: 32px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 4px;
+    }
+
+    #footer .copyright {
+        padding: 12px 0;
+        display: inline-block;
+    }
 }

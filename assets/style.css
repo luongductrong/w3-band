@@ -73,6 +73,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 /* Main */
 #main {
 
@@ -86,7 +90,6 @@ html {
     right: 0;
     height: 46px;
     background-color: #000000;
-    overflow: hidden;
 }
 
 #navigation {
@@ -97,7 +100,7 @@ html {
     list-style-type: none;
 }
 
-#navigation > li {
+#navigation > li { 
     display: inline-block;
 }
 
@@ -158,6 +161,13 @@ html {
     text-decoration: none;
     float: right;
     padding: 0 21px; 
+}
+
+#header .mobile-menu-button {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #header>a:hover {
@@ -246,7 +256,7 @@ html {
 }
 
 #content .member-list {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .member-name {
@@ -302,7 +312,7 @@ html {
 }
 
 #content .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 #content .place-img {
@@ -342,6 +352,7 @@ html {
     border: none;
     margin-top: 15px;
     border-radius: 4px;
+    text-align: center;
 }
 
 #content .place-buy-btn:hover {
@@ -358,6 +369,15 @@ html {
 .contact-infor {
     font-size: 18px;
     line-height: 1.5;
+}
+
+.contact-infor a {
+    text-decoration: none;
+    color: #551a8b;
+}
+
+.contact-infor a:hover {
+    color: #101aef;
 }
 
 .contact-infor i[class*="ti-"] {
@@ -419,8 +439,8 @@ html {
 }
 
 #footer .copyright a {
-    color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
+    color: #551a8b;
 }
 
 .modal {
