@@ -89,13 +89,13 @@
     #navigation .subnav {
         position: initial;
         background-color: #333333;
-        color: #ffffff;
         /* margin-left: 16px;
         margin-right: 16px; */
     }
-
+    
     #navigation .subnav a {
         padding: 5px 41px;
+        color: #ffffff;
     }
 
     #navigation > li {
