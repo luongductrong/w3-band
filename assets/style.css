@@ -86,6 +86,7 @@ html {
     right: 0;
     height: 46px;
     background-color: #000000;
+    overflow: hidden;
 }
 
 #navigation {
@@ -152,6 +153,7 @@ html {
     padding: 0 21px;    
 } */
 
+#header .mobile-menu-button,
 #header>a {
     text-decoration: none;
     float: right;
@@ -169,6 +171,15 @@ html {
     background-color: #f44336;
 } */
 
+#header .mobile-menu-button:hover {
+    background-color: #cccccc;
+}
+
+#header .mobile-menu-button:hover .menu-icon {
+    color: #000000;
+}
+
+#header .menu-icon,
 #header .search-icon {
     color: #ffffff;
     font-size: 20px;
@@ -179,7 +190,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('slider2.jpg') top center / cover no-repeat;
+    background: url('./img/slider/slider2.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -204,9 +215,12 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading {
