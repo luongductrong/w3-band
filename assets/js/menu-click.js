@@ -10,7 +10,7 @@ mobileMenu.onclick = function() {
     } else {
         header.style = null;
     }
-}
+};
 
 // Tự động đóng khi chọn menu
 var menuItems = document.querySelectorAll('#navigation li a[href*="#"]');
@@ -26,3 +26,14 @@ for (var i = 0; i < menuItems.length; i++) {
         }          
     };
 }
+
+// Đóng menu khi click vào bất kỳ vùng nào trên màn hình
+document.addEventListener('click', function(event) {
+    // Kiểm tra xem phần tử được click có thuộc về header không
+    var isHeaderElement = event.target.closest('#header') !== null;
+
+    // Nếu không thuộc về header, đóng menu
+    if (!isHeaderElement) {
+        header.style = null;
+    }
+});
