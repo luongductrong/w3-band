@@ -26,5 +26,6 @@ const iconButton = document.querySelector('.menu-icon');
             // Trả về thuộc tính gốc
             document.addEventListener('click', function (event) {
                 button2.style = null;
+                iconButton.style = null;
             });
         });
