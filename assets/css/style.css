@@ -124,6 +124,7 @@ html {
     display: block;
 }
 
+#mobile-hover-effect,
 #navigation > li:hover > a,
 #navigation .subnav li:hover a {
     color: #000000;
