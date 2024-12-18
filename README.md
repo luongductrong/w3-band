@@ -63,17 +63,17 @@ This project is developed for educational and non-commercial purposes. You are e
 
 ## Screenshots
 ### Homepage
-![Homepage](image.png)
+![Homepage](https://luongductrong-me.github.io/public-resource/luongductrong/w3-band/readme/image.png)
 
 ### Band Introduction Section
-![Band](image-1.png)
+![Band](https://luongductrong-me.github.io/public-resource/luongductrong/w3-band/readme/image-1.png)
 
 ### Tour Dates
-![Tour Dates](image-3.png)
+![Tour Dates](https://luongductrong-me.github.io/public-resource/luongductrong/w3-band/readme/image-3.png)
 
 
 ### Contact Form
-![Contact](image-2.png)
+![Contact](https://luongductrong-me.github.io/public-resource/luongductrong/w3-band/readme/image-2.png)
 
 ---
 
